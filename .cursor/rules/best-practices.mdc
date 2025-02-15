@@ -1,0 +1,99 @@
+---
+description: Best practices to implement for the tech stack used
+globs: 
+---
+Next.js Best Practices:
+
+Utilize Next.js App Router for improved performance and easier data fetching
+Implement proper error boundaries to handle and display errors gracefully
+Use suspense and concurrent features for efficient data fetching and rendering
+Leverage Next.js built-in optimizations like code splitting and image optimization
+Implement proper server-side rendering and static generation where appropriate
+
+React Best Practices:
+
+Use functional components and hooks instead of class components for better code organization
+Implement proper use of React.memo and useMemo for performance optimization
+Follow the React hooks rules strictly to avoid common pitfalls
+Utilize context API for efficient state management across components
+Implement proper prop type validation for better code maintainability
+
+TypeScript Best Practices:
+
+Use TypeScript strict mode for enhanced type safety and better code quality
+Follow proper type definitions and use interfaces and types appropriately
+Implement comprehensive error handling with proper type guards
+Utilize generics for reusable and flexible code
+Leverage TypeScript's advanced features like conditional types and mapped types
+
+React Query Best Practices:
+
+Use React Query for efficient data fetching and caching
+Implement proper query keys for effective cache invalidation
+Utilize optimistic updates for a smoother user experience
+Implement proper error handling and loading states
+Use React Query Devtools for debugging and optimization
+
+React Hook Form Best Practices:
+
+Use React Hook Form for efficient form handling and validation
+Implement proper form validation using Zod or Yup for type-safe validation
+Utilize the useForm hook for better form state management
+Implement custom validation rules where necessary
+Use the Controller component for integrating with UI libraries
+
+Zod Best Practices:
+
+Use Zod for runtime type checking and validation
+Implement proper schema definitions for data validation
+Utilize Zod's inference feature for TypeScript type generation
+Implement custom validation rules using Zod's refine method
+Use Zod's transform method for data transformation and normalization
+
+Tailwind CSS Best Practices:
+
+Use Tailwind CSS for efficient and consistent styling
+Implement proper responsive design using Tailwind's utility classes
+Utilize Tailwind's custom configuration for project-specific styles
+Implement proper accessibility practices with Tailwind's focus and screen reader classes
+Use Tailwind's JIT mode for faster build times and smaller bundle sizes
+
+Firebase Best Practices:
+
+Use Firebase Authentication for secure user management
+Implement proper Firebase Security Rules for data protection
+Utilize Firebase Firestore for real-time data synchronization
+Implement proper error handling and offline support with Firebase
+Use Firebase Performance Monitoring for identifying and fixing performance issues
+
+OpenAI Best Practices:
+
+Use OpenAI API responsibly and adhere to usage guidelines
+Implement proper error handling and rate limiting for API requests
+Utilize streaming responses for better user experience in long-running tasks
+Implement proper data validation and sanitization for user inputs
+Use environment variables to store API keys securely
+
+Framer Motion Best Practices:
+
+Use Framer Motion for smooth animations and transitions
+Implement proper use of variants for reusable animations
+Utilize Framer Motion's gesture support for interactive animations
+Implement proper performance optimization by using reduced motion preferences
+Use Framer Motion's layout animations for smooth list and grid transitions
+
+Radix UI Best Practices:
+
+Use Radix UI components for accessible and customizable UI elements
+Implement proper accessibility practices using Radix UI's built-in features
+Utilize Radix UI's composition model for flexible component customization
+Implement proper state management using Radix UI's built-in hooks
+Use Radix UI's styling props for consistent and themeable components
+
+General Standards:
+
+Keep components small and focused for better maintainability
+Follow proper state management patterns like Redux or Context API
+Implement proper testing practices with unit and integration tests
+Use ESLint and Prettier for consistent code style and quality
+Implement proper error handling and logging throughout the application
